@@ -1,0 +1,76 @@
+.container{
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: auto;
+}
+
+.login {
+    height: calc(100vh - 70px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url("https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fmedia.istockphoto.com%2Fphotos%2Fclose-up-woman-hand-writing-on-notebook-picture-id1035462384%3Fk%3D20%26m%3D1035462384%26s%3D612x612%26w%3D0%26h%3DsQGYRJdWsXuO1n16dB8-fU62xu1Ojjy4xhbEDxAga1c%3D&sp=1632910647T3d2c05a7772e7b0f75902f39148b68f9e6cc651c8a2532ed9add94fc007fa81b");
+    background-size: cover;
+  }
+  
+  .loginTitle {
+    font-size: 50px;
+  }
+  
+  .loginForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .loginForm > label {
+    margin: 10px 0;
+  }
+  
+  .loginInput {
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+  }
+  
+  .loginInput:focus {
+    outline: none;
+  }
+  
+  .loginButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #1049a9;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .loginButton:disabled{
+    cursor:not-allowed;
+    background-color: crimson;
+
+  }
+  
+  .loginRegisterButton {
+    margin-top: 20px;
+    background-color: teal;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+  }
+  .regist{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
